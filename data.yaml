@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['fire alarm', 'fire cabinet', 'fire extinguisher', 'fire hose']
+
+roboflow:
+  workspace: suranaree-ch9tu
+  project: cnn-yrp99
+  version: 5
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/suranaree-ch9tu/cnn-yrp99/dataset/5
